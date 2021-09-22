@@ -324,7 +324,7 @@ def choose_menu():
 	elif r=="07":
 		ress()
         elif r=="08":
-                Setua
+                Setua()
 	elif r=="0" or r=="00":
 		try:
 			os.system("rm -rf login.txt")
