@@ -300,7 +300,7 @@ def menu():
     print((p+" ["+k+"05"+p+"]"+p+"\x1b[0;36m Crack Email"))
     print((p+" ["+k+"06"+p+"]"+p+"\x1b[0;36m Check Opsi Account Checkpoint"))
     print((p+" ["+k+"07"+p+"]"+p+"\x1b[0;36m Result Crack"))
-    print((p+" ["+k+"08"+p+"]"+p+"\x1b[0;36m Seting UA"))
+    print((p+" ["+k+"08"+p+"]"+p+"\x1b[0;36m Seting UA Lagi update:v"))
     print((p+" ["+k+"00"+p+"]"+p+" Logout "))
     choose_menu()
 
