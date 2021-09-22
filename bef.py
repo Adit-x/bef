@@ -299,7 +299,7 @@ def menu():
     ip = requests.get("https://api.ipify.org").text
     os.system("clear")
     banner()
-    print((m+"\n ["+p+" Welcome User \x1b[0;36m"+nama+m+ngentod" ]"+p))
+    print((m+"\n ["+p+" Welcome User \x1b[0;36m"+nama+m+" ]"+p))
     print((p+" ["+k+"•"+m+"•"+p+"]"+p+" Your ID      : \033[1;32m"+id))
     print((p+" ["+k+"•"+m+"•"+p+"]"+p+" Your TTL     : \033[1;32m"+ttl))
     print((p+" ["+k+"•"+m+"•"+p+"]"+p+" Your Joined  : \033[1;32m"+durasi))
