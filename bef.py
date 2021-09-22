@@ -167,7 +167,7 @@ def kontolrecode():
     banner()
     input(p+"\n ["+k+"•"+m+"•"+p+"] Open Youtube? ")
     jalan(p+" ["+k+"•"+m+"•"+p+"] Open Youtube...")
-    os.system("xdg-open https://youtu.be/qhxw5BVUBlE")
+    os.system("xdg-open https://youtu.be/3Y6xsMB3wRg")
     input(p+" [BACK]")
     logs()   
 
@@ -299,7 +299,7 @@ def menu():
     ip = requests.get("https://api.ipify.org").text
     os.system("clear")
     banner()
-    print((m+"\n ["+p+" Welcome User \033[1;32m"+nama+m+" ]"+p))
+    print((m+"\n ["+p+" Welcome User \x1b[0;31m"+nama+m+" ]"+p))
     print((p+" ["+k+"•"+m+"•"+p+"]"+p+" Your ID      : \033[1;32m"+id))
     print((p+" ["+k+"•"+m+"•"+p+"]"+p+" Your TTL     : \033[1;32m"+ttl))
     print((p+" ["+k+"•"+m+"•"+p+"]"+p+" Your Joined  : \033[1;32m"+durasi))
@@ -343,7 +343,7 @@ def choose_menu():
 		menu()	
 
 def pilihcrack(file):
-  print("\n\033[0;91m [ \033[1;37mSelect Methode Crack\033[1;31m ]\033[1;37m")
+  print("\x1b[0;32mSelect Methode Crack\x1b[0;35m")
   print((p+" ["+k+"01"+p+"] Crack With Api.Facebook"))
   print((p+" ["+k+"02"+p+"] Crack With Api.Facebook + TTL "))
   print((p+" ["+k+"03"+p+"] Crack With Mbasic.Facebook"))
