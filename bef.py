@@ -61,8 +61,8 @@ def banner():
  | |\/| |  _ \| |     |  |  \x1b[0;33m
  | |  | | |_) |  _|   |   _|\33[36;1m' *gh:github.com/adit-x
  |_|  |_|____/|_____| |__|  \33[36;1m
-  \033[1;33m•\033[1;91m•\033[1;37m New Tools Hack Facebook Random \033[1;33m•\033[1;91m•\033[1;37m
- \033[1;33m•\033[1;91m•\033[1;37m Gunakan Akun Tumbal Untuk Login! \033[1;33m•\033[1;91m•\033[1;37m
+  \033[1;33m•\033[1;91m•\033[1;37m\x1b[0;35m New Tools Hack Facebook Random\x1b[0;35m \033[1;33m•\033[1;91m•\033[1;37m
+ \033[1;33m•\033[1;91m•\033[1;37m\x1b[0;35m Gunakan Akun Tumbal Untuk Login!\x1b[0;35m \033[1;33m•\033[1;91m•\033[1;37m
 \033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m""")
 
 ua="NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+"
@@ -177,12 +177,12 @@ def logs():
   os.system("clear")
   banner()
   print ("")
-  print((p+" ["+k+"01"+p+"] Login Token"))
-  print((p+" ["+k+"02"+p+"] Login Cookies"))
-  print((p+" ["+k+"03"+p+"] Tonton Cara Ambil Token"))
+  print((p+" ["+k+"01"+p+"]\x1b[0;35m Login Token"))
+  print((p+" ["+k+"02"+p+"]\x1b[0;35m Login Cookies"))
+  print((p+" ["+k+"03"+p+"]\x1b[0;35m Tonton Cara Ambil Token"))
   
-  print((p+" ["+k+"04"+p+"] Contact Author"))
-  print((p+" ["+k+"00"+p+"] Exit\n"))
+  print((p+" ["+k+"04"+p+"]\x1b[0;35m Contact Author"))
+  print((p+" ["+k+"00"+p+"]\x1b[0;35m Exit\n"))
   sek=input(p+" ["+k+"•"+m+"•"+p+"] Choose: ")
   if sek=="":
     print((p+" ["+k+"•"+m+"•"+p+"] Fill In The Correct"))
