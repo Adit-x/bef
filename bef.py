@@ -321,7 +321,7 @@ def choose_menu():
 		random_email()
 	elif r=="6" or r=="06":
 		cek_opsi()
-	elif r=="07":
+	elif r=="99":
 		ress() 
 	elif r=="0" or r=="00":
 		try:
