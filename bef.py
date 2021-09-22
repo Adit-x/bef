@@ -299,7 +299,7 @@ def menu():
     print((p+" ["+k+"04"+p+"]"+p+"\x1b[0;36m Crack Phone Number"))
     print((p+" ["+k+"05"+p+"]"+p+"\x1b[0;36m Crack Email"))
     print((p+" ["+k+"06"+p+"]"+p+"\x1b[0;36m Check Opsi Account Checkpoint"))
-    print((p+" ["+k+"07"+p+"]"+p+"\x1b[0;36m Result Crack"))
+    print((p+" ["+k+"99"+p+"]"+p+"\x1b[0;36m Result Crack"))
     print((p+" ["+k+"08"+p+"]"+p+"\x1b[0;36m Seting UA Lagi update:v"))
     print((p+" ["+k+"00"+p+"]"+p+" Logout "))
     choose_menu()
@@ -322,7 +322,9 @@ def choose_menu():
 	elif r=="6" or r=="06":
 		cek_opsi()
 	elif r=="99":
-		ress() 
+		ress()
+        elif r=="8" or r=="08":
+                setua()
 	elif r=="0" or r=="00":
 		try:
 			os.system("rm -rf login.txt")
