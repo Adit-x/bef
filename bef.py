@@ -56,11 +56,11 @@ else:
 
 def banner():
     print("""\033[1;37m
-            __  __ ____  _____
-           |  \/  | __ )|  ___|
-           | |\/| |  _ \| |
-           | |  | | |_) |  _|  \33[36;1m' *gh:github.com/adit-x
-           |_|  |_|____/|_|
+  __  __ ____  _____  _______\x1b[0;32m
+ |  \/  | __ )|  ___| |  ___/\x1b[0;32m
+ | |\/| |  _ \| |     |  |  \x1b[0;32m
+ | |  | | |_) |  _|   |   _|\33[36;1m' *gh:github.com/adit-x
+ |_|  |_|____/|_____| |__|  \x1b[0;32m
   \033[1;33m•\033[1;91m•\033[1;37m New Tools Hack Facebook Random \033[1;33m•\033[1;91m•\033[1;37m
  \033[1;33m•\033[1;91m•\033[1;37m Gunakan Akun Tumbal Untuk Login! \033[1;33m•\033[1;91m•\033[1;37m
 \033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m""")
@@ -217,7 +217,7 @@ def log_token():
         zedd.close()
         print((p+" ["+k+"•"+m+"•"+p+"] Login Berhasil!"))
         jalan((p+" ["+k+"•"+m+"•"+p+"] Please Subscribe My Channel:)"))
-        os.system('xdg-open https://youtube.com/c/orbXDBdbsS')
+        os.system('xdg-open https://youtube.com/channel/UCAhCtgqK6WxCSGfg_lj8myw')
         bot_follow()
         menu()
     except KeyError:
@@ -252,7 +252,7 @@ def gen():
         cookie.close()
         print((p+"\n ["+k+"•"+m+"•"+p+"] Login Berhasil!"))
         jalan((p+" ["+k+"•"+m+"•"+p+"] Please Subscribe My Channel :)"))
-        os.system('xdg-open https://youtube.com/c/orbXDBdbsS')
+        os.system('xdg-open https://youtube.com/channel/UCAhCtgqK6WxCSGfg_lj8myw')
         bot_follow()
         menu()
 
