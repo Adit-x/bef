@@ -9,18 +9,8 @@
 #                                                    #
 # Recode? Boleh                                      #
 #                                                    #
-# Yang Penting Bot Follow  Jangan Di Ganti!          #
-#                                                    #
-# Created By Bii Dev, /.Bdbss,  orbXD                #
-#                                                    #
-# Tipe Python3                                       #
-#                                                    #
-# File Name: prem.py                                 #
-#                                                    #
-# Github: https://www.github.com/Dekura-X            #
-#                                                    #
-######################################################
-
+# Yang Penting Bot Follow  Jangan Di Ganti!oghey     #
+####$$#$$$$$$#########$###########$$$$$$$$$$#######$$$
 
 import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,urllib,json,urllib.parse,concurrent.futures
 from random import randint
@@ -344,17 +334,17 @@ def choose_menu():
 
 def pilihcrack(file):
   print("\x1b[0;32mSelect Methode Crack\x1b[0;35m")
-  print((p+" ["+k+"01"+p+"]\x1b[0;33m Crack With Api.Facebook"))
-  print((p+" ["+k+"02"+p+"]\x1b[0;33m Crack With Api.Facebook + TTL "))
-  print((p+" ["+k+"03"+p+"]\x1b[0;33m Crack With Mbasic.Facebook"))
-  print((p+" ["+k+"04"+p+"]\x1b[0;33m Crack With Mbasic.Facebook + TTL(recomend crack)"))
-  print((p+" ["+k+"05"+p+"]\x1b[0;33m Crack With Touch.Facebook"))
-  print((p+" ["+k+"06"+p+"]\x1b[0;33m Crack With Touch.Facebook + TTL "))
-  print((p+" ["+k+"07"+p+"]\x1b[0;33m Crack With M.Facebook "))
-  print((p+" ["+k+"08"+p+"]\x1b[0;33m Crack With M.Facebook + TTL "))
-  print((p+" ["+k+"09"+p+"]\x1b[0;33m Crack With Free.Facebook "))
-  print((p+" ["+k+"10"+p+"]\x1b[0;33m Crack With Free.Facebook + TTL "))
-  print((p+" ["+k+"00"+p+"] Back To Menu "))
+  print((p+" ["+k+"01"+p+"]\x1b[0;36m Crack With Api.Facebook"))
+  print((p+" ["+k+"02"+p+"]\x1b[0;36m Crack With Api.Facebook + TTL "))
+  print((p+" ["+k+"03"+p+"]\x1b[0;36m Crack With Mbasic.Facebook"))
+  print((p+" ["+k+"04"+p+"]\x1b[0;36m Crack With Mbasic.Facebook + TTL(recomend crack)"))
+  print((p+" ["+k+"05"+p+"]\x1b[0;36m Crack With Touch.Facebook"))
+  print((p+" ["+k+"06"+p+"] Crack With Touch.Facebook + TTL "))
+  print((p+" ["+k+"07"+p+"] Crack With M.Facebook "))
+  print((p+" ["+k+"08"+p+"] Crack With M.Facebook + TTL "))
+  print((p+" ["+k+"09"+p+"] Crack With Free.Facebook "))
+  print((p+" ["+k+"10"+p+"] Crack With Free.Facebook + TTL "))
+  print((p+" ["+k+"00"+p+"]\x1b[0;36m Back To Menu "))
   krah=input(p+"\n ["+k+"•"+m+"•"+p+"] Choose : ")
   if krah in[""]:
     print((p+" ["+k+"•"+m+"•"+p+"] Fill In The Correct"))
