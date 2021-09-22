@@ -61,8 +61,8 @@ def banner():
  | |\/| |  _ \| |     |  |  \x1b[0;33m
  | |  | | |_) |  _|   |   _|\33[36;1m' *gh:github.com/adit-x
  |_|  |_|____/|_____| |__|  \33[36;1m
-  \033[1;33m•\033[1;91m•\033[1;37m\x1b[0;35m New Tools Hack Facebook Random\x1b[0;35m \033[1;33m•\033[1;91m•\033[1;37m
- \033[1;33m•\033[1;91m•\033[1;37m\x1b[0;35m Gunakan Akun Tumbal Untuk Login!\x1b[0;35m \033[1;33m•\033[1;91m•\033[1;37m
+  \033[1;33m•\033[1;91m•\033[1;37m\x1b[0;34m New Tools Hack Facebook Random\x1b[0;34m \033[1;33m•\033[1;91m•\033[1;37m
+ \033[1;33m•\033[1;91m•\033[1;37m\x1b[0;34m Gunakan Akun Tumbal Untuk Login!\x1b[0;34m \033[1;33m•\033[1;91m•\033[1;37m
 \033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m~\033[1;91m~\033[1;37m""")
 
 ua="NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+"
@@ -303,13 +303,13 @@ def menu():
     print((p+" ["+k+"•"+m+"•"+p+"]"+p+" Your ID      : \033[1;32m"+id))
     print((p+" ["+k+"•"+m+"•"+p+"]"+p+" Your TTL     : \033[1;32m"+ttl))
     print((p+" ["+k+"•"+m+"•"+p+"]"+p+" Your Joined  : \033[1;32m"+durasi))
-    print((p+"\n ["+k+"01"+p+"]"+p+" Crack ID From Public/Friendlist\x1b[0;33m"))
-    print((p+" ["+k+"02"+p+"]"+p+" Crack ID From Likers Post\x1b[0;33m"))
-    print((p+" ["+k+"03"+p+"]"+p+" Crack ID From Followers\x1b[0;33m"))
-    print((p+" ["+k+"04"+p+"]"+p+" Crack Phone Number\x1b[0;33m\x1b[0;33m"))
-    print((p+" ["+k+"05"+p+"]"+p+" Crack Email\x1b[0;33m"))
-    print((p+" ["+k+"06"+p+"]"+p+" Check Opsi Account Checkpoint\x1b[0;33m"))
-    print((p+" ["+k+"99"+p+"]"+p+" Result Crack\x1b[0;33m"))
+    print((p+"\n ["+k+"01"+p+"]"+p+"\x1b[0;32m Crack ID From Public/Friendlist\x1b[0;33m"))
+    print((p+" ["+k+"02"+p+"]"+p+"\x1b[0;32m Crack ID From Likers Post\x1b[0;33m"))
+    print((p+" ["+k+"03"+p+"]"+p+"\x1b[0;32m Crack ID From Followers\x1b[0;33m"))
+    print((p+" ["+k+"04"+p+"]"+p+"\x1b[0;32m Crack Phone Number"))
+    print((p+" ["+k+"05"+p+"]"+p+"\x1b[0;32m Crack Email"))
+    print((p+" ["+k+"06"+p+"]"+p+"\x1b[0;32m Check Opsi Account Checkpoint"))
+    print((p+" ["+k+"99"+p+"]"+p+"\x1b[0;32m Result Crack"))
     print((p+" ["+k+"00"+p+"]"+p+" Logout "))
     choose_menu()
 
