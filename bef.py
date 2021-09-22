@@ -323,7 +323,7 @@ def choose_menu():
 		cek_opsi()
 	elif r=="07":
 		ress()
-        elif r=="08" or r=="08"
+        elif r=="08" or r=="8"
                 Setua
 	elif r=="0" or r=="00":
 		try:
