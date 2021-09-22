@@ -347,7 +347,7 @@ def pilihcrack(file):
   print((p+" ["+k+"01"+p+"] Crack With Api.Facebook"))
   print((p+" ["+k+"02"+p+"] Crack With Api.Facebook + TTL "))
   print((p+" ["+k+"03"+p+"] Crack With Mbasic.Facebook"))
-  print((p+" ["+k+"04"+p+"] Crack With Mbasic.Facebook + TTL"))
+  print((p+" ["+k+"04"+p+"] Crack With Mbasic.Facebook + TTL(recomend crack"))
   print((p+" ["+k+"05"+p+"] Crack With Touch.Facebook"))
   print((p+" ["+k+"06"+p+"] Crack With Touch.Facebook + TTL "))
   print((p+" ["+k+"07"+p+"] Crack With M.Facebook "))
