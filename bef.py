@@ -299,7 +299,8 @@ def menu():
     print((p+" ["+k+"04"+p+"]"+p+"\x1b[0;36m Crack Phone Number"))
     print((p+" ["+k+"05"+p+"]"+p+"\x1b[0;36m Crack Email"))
     print((p+" ["+k+"06"+p+"]"+p+"\x1b[0;36m Check Opsi Account Checkpoint"))
-    print((p+" ["+k+"99"+p+"]"+p+"\x1b[0;36m Result Crack"))
+    print((p+" ["+k+"07"+p+"]"+p+"\x1b[0;36m Result Crack"))
+    print((p+" ["+k+"08"+p+"]"+p+"\x1b[0;36m Seting UA"))
     print((p+" ["+k+"00"+p+"]"+p+" Logout "))
     choose_menu()
 
@@ -320,8 +321,10 @@ def choose_menu():
 		random_email()
 	elif r=="6" or r=="06":
 		cek_opsi()
-	elif r=="99":
+	elif r=="07":
 		ress()
+        elif r=="08" or r=="08"
+                Setua
 	elif r=="0" or r=="00":
 		try:
 			os.system("rm -rf login.txt")
@@ -1773,3 +1776,39 @@ def check_in(user, pasw):
 		print(p+" ["+k+"•"+m+"•"+p+"] Login Gagal, ID/Pass Salah\n")
 if __name__=="__main__":
 	menu()
+
+def setua():
+    print("\n\033[0;96m\033[0;97m [\033[1;36m1\033[1;37m] Set User agent sendiri")
+    print("\033[0;96m\033[0;97m [\033[1;36m2\033[1;37m] Cek User agent sekarang")
+    print("\033[0;96m\033[0;97m [\033[1;36m3\033[1;37m] Set User agent random")
+    print("\033[0;96m\033[0;97m [\033[1;36m0\033[1;37m] Back")
+    print("")
+    pil_ua=raw_input("\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Choose: ")
+    if pil_ua == "1" or pil_ua == "01":
+        print("\n\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Masukan User agent dengan benar agar tidak eror!")
+        user=raw_input("\n\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Masukan Ua: ")
+        open("ua.txt", "w").write(user)
+        print("\n\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Sedang mengganti User agent!")
+        time.sleep(1.5)
+        print("\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Succes mengganti User agent!")
+        raw_input("\033[1;37m [BACK]")
+        menu()
+    elif pil_ua == "2" or pil_ua == "02":
+        print("\n\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] User agent sekarang:%s %s %s "%(h,open('ua.txt').read(),p))
+        raw_input("\033[1;37m [BACK]")
+        menu()
+    elif pil_ua == "3" or pil_ua == "03":
+        randomuaa = ahahahaha_kimochii_araaaaaa
+        print("\n\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] User agent sekarang:%s %s %s "%(h,open('ua.txt').read(),p))
+        time.sleep(1.5)
+        print("\n\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Mohon tunggu sebentar...")
+        time.sleep(1.5)
+        open("ua.txt", "w").write(randomuaa)
+        print("\n\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Succes mengganti User agent!")
+        print("\n\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] User agent:%s %s %s "%(h,open('ua.txt').read(),p))
+        raw_input("\033[1;37m [BACK]")
+        menu()
+    elif pil_ua == "0" or pil_ua == "00":
+        menu()
+    else:
+        print("\n\033[0;96m\033[0;97m [\033[1;36m•\033[1;37m] Pilihan Tidak Ada!")
