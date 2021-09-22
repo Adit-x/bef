@@ -21,4 +21,6 @@ RUN SCNYA
 
 $ cd bef
 
-$python bef.py
+$ git pull
+
+$ python bef.py
